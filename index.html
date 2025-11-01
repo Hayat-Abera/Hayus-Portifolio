@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/custom.css">
 
   <!-- =======================================================
   * Template Name: FolioOne
@@ -41,18 +42,18 @@
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
-      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-      <img src="assets/img/logo.webp" alt="">
-      <h1 class="sitename">FolioOne</h1> 
-    </a> -->
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <img src="assets/img/image.png" alt="">
+      <h1 class="sitename">Hayat Abera</h1> 
+    </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
+          <li><a href="#hero" class="nav-link" >Home</a></li>
+          <li><a href="#about" class="nav-link" >About</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
           <!-- <li><a href="services.html">Services</a></li> -->
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -70,7 +71,7 @@
               <li><a href="#">Dropdown 4</a></li>
             </ul>
           </li> -->
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -99,13 +100,13 @@
               <h2 data-aos="fade-up" data-aos-delay="300">Creative <span class="typed" data-typed-items="Junior Full-stack Developer, Electrical & Computer Engineer, "></span></h2>
               <p data-aos="fade-up" data-aos-delay="400"> Electrical & Computer Engineer transitioning into a Junior Full-Stack Web Developer role, specializing in the MERN stack (React, Node.js, Express.js) complemented by MySQL. I build scalable, high-performance web applications with a focus on clean design and seamless user experience. Proficient in API integration, I am dedicated to translating complex technical concepts into practical, user-centric digital solutions. I prioritize clean code, innovation, and quality to create truly impactful products.</p>
               <div class="hero-actions" data-aos="fade-up" data-aos-delay="500">
-                <a href="portfolio.html" class="btn btn-primary">View My Work</a>
-                <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
               </div>
-              <div class="social-links" data-aos="fade-up" data-aos-delay="600">
+              <!-- <div class="social-links" data-aos="fade-up" data-aos-delay="600">
                 <a href="https://github.com/Hayat-Abera" target="_blank"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/hayat-abera-06737a2b6/" target="_blank"><i class="bi bi-linkedin"></i></a>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2">
@@ -135,6 +136,807 @@
 
     </section><!-- /Hero Section -->
 
+
+        <!-- About Section -->
+         <section id="about">
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Me</h2>
+       
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Intro + Photo -->
+        <div class="row align-items-center justify-content-between gy-5 mb-5">
+          <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
+            <div class="intro-content">
+              <span class="eyebrow">Hello there</span>
+              <h2 class="headline">Hi, I'm Hayat Abera creative developer crafting serene digital journeys</h2>
+              
+              <p class="lead">
+              I'm an Electrical and Computer Engineering graduate with a foundational understanding of robust digital systems. My professional experience bridges the gap between hardware logic and software innovation, combining enterprise Java development (at INSA) with creative front-end development using React, HTML, and CSS (at TechEthio). I am a full-stack thinker ready to take on technical challenges.
+              </p>
+              <p>
+                I specialize in the MERN stack (MySQL, Express.js, React, and Node.js), focusing on building scalable, high-performance web applications with clean design and seamless user experiences. I actively integrate AI-powered features using APIs, making applications smarter and more interactive. My ultimate goal is to transform complex ideas into practical, user-focused digital solutions through modern technologies, emphasizing clean code, innovation, and quality.
+              </p>
+
+              <div class="cta-group">
+                <a href="#portfolio" class="btn-ghost">
+                  View My Work <i class="bi bi-arrow-up-right"></i>
+                </a>
+                <a href="./assets/img/portfolio/CV.jpg" target="_blank" class="link-underline">
+                  Download Resume <i class="bi bi-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
+            <figure class="profile-figure text-center text-lg-end">
+              <img src="assets/img/profile/hayu-profile.png" alt="Portrait of Alex" class="img-fluid profile-photo">
+            </figure>
+          </div>
+        </div>
+        <!-- End Intro + Photo -->
+
+        <!-- Skills Grid -->
+        <!-- <div class="mb-5">
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+              <div class="skill-item">
+                <i class="bi bi-layout-text-window"></i>
+                <h3>UI/UX</h3>
+                <p>Vivamus sagittis lacus molestie placerat.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+              <div class="skill-item">
+                <i class="bi bi-code-slash"></i>
+                <h3>React.js</h3>
+                <p>Maecenas pharetra magna sit amet risus.</p>
+              </div>
+            </div>
+            <!-- <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+              <div class="skill-item">
+                <i class="bi bi-phone"></i>
+                <h3>Mobile-first</h3>
+                <p>Donec id elit non mi porta gravida.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="skill-item">
+                <i class="bi bi-computer"></i>
+                <h3>Photography</h3>
+                <p>Aliquam euismod nunc at augue cursus.</p>
+              </div>
+            </div> -->
+          <!-- </div>
+        </div>  -->
+      
+        <!-- End Skills Grid -->
+
+        <!-- Journey Timeline -->
+        <!-- <div class="mb-5">
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2018</time>
+                <h4>B.A. in Design</h4>
+                <p>Quisque euismod turpis ut sapien luctus bibendum.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2020</time>
+                <h4>Freelance Start</h4>
+                <p>Mauris non arcu non urna convallis vulputate.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2022</time>
+                <h4>Joined Creative Studio</h4>
+                <p>Nunc sed nibh et libero fermentum posuere.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2024</time>
+                <h4>Lead Frontend</h4>
+                <p>Proin commodo massa sit amet urna pretium.</p>
+              </article>
+            </div>
+          </div>
+        </div> -->
+        <!-- End Journey Timeline -->
+
+        <!-- Quote -->
+        <blockquote class="personal-quote text-center mb-5" data-aos="fade-down" data-aos-delay="200">
+          <p>"Building clean and meaningful experiences through thoughtful code and quiet design."</p>
+        </blockquote>
+        <!-- End Quote -->
+
+        <!-- Fun Facts -->
+        <!-- <div class="row g-3 justify-content-center">
+          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="120">
+            <div class="fact-pill">
+              <i class="bi bi-magic"></i>
+              <span>Minimalism</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="160">
+            <div class="fact-pill">
+              <i class="bi bi-headphones"></i>
+              <span>Lo-fi Beats</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
+            <div class="fact-pill">
+              <i class="bi bi-geo-alt"></i>
+              <span>City Walks</span>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="240">
+            <div class="fact-pill">
+              <i class="bi bi-brush"></i>
+              <span>Sketching</span>
+            </div>
+          </div>
+        </div> -->
+        <!-- End Fun Facts -->
+
+      </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 skills-animation">
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <h3>HTML</h3>
+              <img src="./assets/img/skill/HTML5_Logo.jpg" alt="HTML" style="width: 50px;" >
+              <!-- <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-box">
+              <h3>CSS</h3>
+              <img src="./assets/img/skill/CSS-Logo.jpg" alt="CSS" style="width: 70px;" >
+              <!-- <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>JavaScript</h3>
+              <img src="./assets/img/skill/JavaScript.jpg" alt="JavaScript" style="width: 50px;" >
+              <!-- <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>Mysql</h3>
+              <img src="./assets/img/skill/mysql.jpg" alt="Mysql" style="width: 40px;" >
+              <!-- <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>github</h3>
+              <img src="./assets/img/skill/github.jpg" alt="github" style="width: 40px;" >
+              <!-- <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>Node</h3>
+              <img src="./assets/img/skill/node-logo.jpg" alt="Node" style="width: 40px;" >
+              <!-- <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>firebase</h3>
+              <img src="./assets/img/skill/firebase.jpg" alt="firebase" style="width: 40px;" >
+              <!-- <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>React</h3>
+              <img src="./assets/img/skill/react-logo.jpg" alt="react" style="width: 40px;" >
+              <!-- <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>Java</h3>
+              <img src="./assets/img/skill/java.jpg" alt="java" style="width: 40px;" >
+              <!-- <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>C++</h3>
+              <img src="./assets/img/skill/c++.png" alt="c++" style="width: 40px;" >
+              <!-- <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p> -->
+              <span class="text-end d-block"></span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+         
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+</section>
+<!-- /About Section -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Analytical Electrical & Computer Engineer transitioning into a Junior Full-Stack Developer role, specializing in the MERN stack (React, Node.js, Express.js) and adept at API integration. Proven history of applying system logic to build scalable, high-performance web applications with a focus on clean code and seamless user experience.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-6">
+
+            <!-- Education Section -->
+            <div class="resume-item" data-aos="fade-up">
+              <h3 class="resume-title">Education</h3>
+
+              <div class="resume-content">
+                <!-- <article class="education-item">
+                  <h4>Master of Computer Science</h4>
+                  <h5>2019 - 2021</h5>
+                  <p class="institution"><em>Stanford University, California</em></p>
+                  <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                </article> -->
+
+                <article class="education-item">
+                  <h4>Bachelor of Electrical and Computer Engineering</h4>
+                  <h5>2019 - 2023</h5>
+                  <p class="institution"><em>Raya University</em></p>
+                  <p>Focused on systems logic and problem-solving methodologies, providing a strong analytical foundation for software development and architecture.</p>
+                </article>
+
+                <article class="education-item">
+                  <h4>Certeficats in Fundametal of Programming</h4>
+                  <h5>2024</h5>
+                  <p class="institution"><em>Udacity</em></p>
+                  <p>Gained core programming paradigms and data structures essential for writing clean, efficient, and maintainable full-stack code.</p>
+                </article>
+
+
+                <article class="education-item">
+                  <h4>Certeficate in Web Development Fundamentals</h4>
+                  <h5>2024</h5>
+                  <p class="institution"><em>IBM SkillsBuild</em></p>
+                  <p>Mastered foundational web technologies (HTML, CSS, JavaScript) necessary for building responsive and user-friendly interfaces.</p>
+                </article>
+                  <h3 class="resume-title">Professional Skills </h3>
+
+                    <article class="experience-item">
+                  <h4>Technical Skills</h4>
+                  
+                    <li>Frontend: React, JavaScript (ES6+), HTML5, CSS3, Responsive Design</li>
+
+                   <li>Backend/Database: Node.js, Express.js, JavaEE, MySQL, Firebase</li>
+                   
+        <li>Tools/Other: Git, GitHub, Agile Methodology</li>
+                  </ul>
+                </article>
+              </div>
+            </div><!-- End Education Section -->
+
+            <!-- Professional Skills Section -->
+            <div class="resume-item skills-animation" data-aos="fade-up">
+              <!-- <h3 class="resume-title">Professional Experience</h3> -->
+
+              <div class="resume-content">
+                <!-- <div class="skill-item">
+                  <h4>Frontend Development</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="skill-item">
+                  <h4>Backend Development</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="skill-item">
+                  <h4>UI/UX Design</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div> -->
+
+                <!-- <div class="skill-item">
+                  <h4>Project Management</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div> -->
+              </div>
+            </div><!-- End Professional Skills Section -->
+          </div>
+
+          <div class="col-lg-6">
+            <!-- Experience Section -->
+            <div class="resume-item" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Internship Experience</h3>
+
+              <div class="resume-content">
+                <article class="experience-item">
+                  <h4>Junior Website Developer</h4>
+                  <h5>2023</h5>
+                  <p class="company"><em>Information Network Security Administration</em></p>
+                  <ul>
+                     <li>Developed Job Portal System by using javaEE </li>
+                    <li>Managed tasks at a given time while under pressure</li>
+                   <li>Contributed to peer code reviews, ensuring code quality and adherence to architectural and style standards.</li>
+        <li>Engaged in agile teamwork to maintain and debug existing applications, resolving critical front-end issues.</li>
+                   
+                   
+                  </ul>
+                </article>
+
+            
+
+                <article class="experience-item">
+                  <h4>Junior Frontend Developer</h4>
+                  <h5> 2025</h5>
+                  <p class="company"><em>TechEthio IT Solutions PLC</em></p>
+                  <ul>
+                    <li>Implemented responsive websites  utilizing modern frameworks, including React, HTML, CSS, JavaScript </li>
+                    <li>Contributed to peer code reviews, ensuring code quality and adherence to architectural and style standards.</li>
+                   <li>Efficiently prioritized and executed time-sensitive development tasks to consistently meet project deadlines.</li>
+        
+                  </ul>
+                </article>
+              <h3 class="resume-title">Professional Experience</h3>
+
+                <article class="experience-item">
+                  <h4>Customer Service Representative</h4>
+                  <h5> 2025 - present</h5>
+                  <p class="company"><em>Iconnect Digital Service PLC</em></p>
+                  <ul>
+                    <li>Systematically checked and verified customer account information across multiple platforms to ensure accurate service delivery. </li>
+                   <li>Provided front-line customer support and information for clients seeking to engage with interactive gaming services.</li>
+        <li>Clearly communicated game rules, service features, and account requirements, resulting in positive client engagement.</li>
+        <li>Resolved customer inquiries efficiently, leveraging product knowledge to provide accurate and timely solutions.</li>
+                  </ul>
+                </article>
+              </div>
+            </div><!-- End Experience Section -->
+          </div>
+
+          
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Resume Section -->
+
+
+
+        <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>I am a Full-Stack Developer specializing in robust, user-centric web applications. I leverage the React, Node.js, and MySQL stack to build, deploy, and scale high-quality digital experiences. Explore my portfolio below—each project is a live demonstration of my end-to-end development skills.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-apple">Apple</li>
+            <li data-filter=".filter-netflix">Netflix</li>
+            <li data-filter=".filter-amazon">Amazon</li>
+            <li data-filter=".filter-evangadi">Evangadi-Forum</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-apple">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/apple_bootstrap.jpg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="https://bootstrape-page-12345new.netlify.app//" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                   
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Apple clone</h4>
+                  <p>Apple page by bootstrap</p>
+                  <div class="portfolio-tags">
+                    <a href="https://bootstrape-page-12345new.netlify.app/" target="_blank" rel="noopener noreferrer"> <span>Live demo</span></a>
+                    <a href="https://github.com/Hayat-Abera/Apple-bootstarp" target="_blank" rel="noopener noreferrer">  <span>github</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-apple">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/apple_react.jpg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="https://projectapp-reactvite-a6cf67.netlify.app/" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Apple clone</h4>
+                  <p>Apple page by react</p>
+                  <div class="portfolio-tags">
+                    <a href="https://projectapp-reactvite-a6cf67.netlify.app/" target="_blank" rel="noopener noreferrer"> <span>Live demo</span></a>
+                    <a href="https://github.com/Hayat-Abera/Apple-clone" target="_blank" rel="noopener noreferrer">  <span>github</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-netflix">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/netflix.jpg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="https://hayu-net-clone.netlify.app/" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Netflix clone</h4>
+                  <p>Netflix by react</p>
+                  <div class="portfolio-tags">
+                    <a href="https://hayu-net-clone.netlify.app/" target="_blank" rel="noopener noreferrer"> <span>Live demo</span></a>
+                    <a href="https://github.com/Hayat-Abera/Netflix-Clone" target="_blank" rel="noopener noreferrer">  <span>github</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-amazon">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/amazon.jpg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="https://hayu-amazon-clone.netlify.app/" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Amazon clone</h4>
+                  <p>Amazon  by react and node</p>
+                  <div class="portfolio-tags">
+                    <a href="https://hayu-amazon-clone.netlify.app/" target="_blank" rel="noopener noreferrer"> <span>Live demo</span></a>
+                    <a href="https://github.com/Hayat-Abera/My-Amaz-Project" target="_blank" rel="noopener noreferrer">  <span>github</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-evangadi">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/evangadi_forum.jpg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="https://evangadiforum.hayuabera.com" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                   
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Evangadi-Forum</h4>
+                  <p>Evangadi-Forum by react node and mysql</p>
+                  <div class="portfolio-tags">
+                    <a href="https://evangadiforum.hayuabera.com" target="_blank" rel="noopener noreferrer"> <span>Live demo</span></a>
+                    <a href="https://github.com/Hayat-Abera/EvanForum-FrontEnd-" target="_blank" rel="noopener noreferrer">  <span>github</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-2.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-2.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Financial Restructuring</h4>
+                  <p>Financial Advisory</p>
+                  <div class="portfolio-tags">
+                    <span>Finance</span>
+                    <span>Investment</span>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-operations">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-3.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-3.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Supply Chain Optimization</h4>
+                  <p>Operations Management</p>
+                  <div class="portfolio-tags">
+                    <span>Operations</span>
+                    <span>Logistics</span>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-technology">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-4.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-4.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Digital Transformation</h4>
+                  <p>Technology Consulting</p>
+                  <div class="portfolio-tags">
+                    <span>Technology</span>
+                    <span>Innovation</span>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-5.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-5.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Market Expansion</h4>
+                  <p>Strategic Planning</p>
+                  <div class="portfolio-tags">
+                    <span>Strategy</span>
+                    <span>Growth</span>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/portfolio-6.webp" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/portfolio-6.webp" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Investment Strategy</h4>
+                  <p>Financial Advisory</p>
+                  <div class="portfolio-tags">
+                    <span>Finance</span>
+                    <span>Investment</span>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <!-- End Portfolio Items Container -->
+
+        </div>
+
+        <!-- <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
+          <a href="#portfolio" class="btn btn-primary">View All Case Studies</a>
+        </div> -->
+
+      </div>
+
+    </section>
+    <!-- /Portfolio Section -->
+
+
+
+       <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <p>I am actively seeking opportunities where I can apply my analytical engineering mindset and full-stack development skills to create impactful digital products. I am highly motivated, fully available, and eager to connect regarding roles in technical development, process optimization, or any potential collaboration. Please feel free to reach out directly—I look forward to connecting with you!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="">
+          <div class="">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Info</h3>
+             
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Location</h4>
+                  <p>Ethiopia</p>
+                  <p>Addis Ababa</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone Number</h4>
+                  <p>+251 914312590</p>
+                  <p>+251 938013476</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>hayushahayuti@gmail.com</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-7"> -->
+            <!-- <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Get In Touch</h3> -->
+              <!-- <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p> -->
+
+              <!-- <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  </div>
+
+                  <div class="col-md-6 ">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form> -->
+
+            <!-- </div> -->
+          <!-- </div> -->
+
+        </div>
+
+      </div>
+
+    </section>
+    
+    <!-- /Contact Section -->
   </main>
 
   <footer id="footer" class="footer">
@@ -178,6 +980,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/custom.js"></script>
 
 </body>
 
